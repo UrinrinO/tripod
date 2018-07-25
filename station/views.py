@@ -16,12 +16,6 @@ def home_page(request):
 
     return render(request, "index.html", context)
 
-    # template_name = 'index.html'
-    #
-    # def get(self, request):
-    #     form = ContactForm()
-    #     return render(request, self.template_name, {'form': form})
-
 def add_employee(request):
 
     first_name = request.POST["first_name"]
